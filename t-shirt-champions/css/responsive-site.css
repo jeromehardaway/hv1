@@ -1,0 +1,115 @@
+/* Table of Contents
+==================================================
+    #Base 960 Grid
+    #Tablet (Portrait)
+    #Mobile (Portrait)
+    #Mobile (Landscape)
+    #Clearing */
+
+	/* 1em of line-height = font-size */
+	/* 1em margin = font-size  */
+	/* example (3em H1 = 48px, 1em of line-height = 48px, .25em of bottom margin = 12px)*/
+	h1 {
+	    font-size: 36px; /* 48 / 16 */
+	    line-height: 40px; /* 48 / 48 */
+	    margin-bottom: 12px; /* 12 / 48 */
+	}
+	h1.home,#body.home h1 {
+	    font-size: 50px;
+	    line-height: 36px;
+	    margin-bottom: 0;
+	}
+	h2 {
+	    font-size: 26px; /* 36 / 16 */
+	    line-height: 30px; /* 48 / 36 */
+	    margin-bottom: 12px; /* 12 / 36 */
+	}
+
+	h3 {
+	    font-size: 1.5em; /* 24 / 16 */
+	    line-height: 1em; /* 24 / 24 */
+	    margin-bottom: .5em; /* 12 / 24 */
+	}
+	h3.home,#body.home h3 {
+	    font-size: 18px;
+	    line-height: 24px;
+	    margin-bottom: 3px;
+	}
+	h4 {
+	    font-size: 1.3125em; /* 21 / 16 */
+	    line-height: 1.142857142857143em; /* 24 / 21 */
+	    margin-bottom: .57142857142857em; /* 12 / 21 */
+	}
+
+	h5 {
+	    font-size: 22px;
+	    line-height: 22px;
+	    margin-bottom: 3px;
+	}
+	h6 {
+	    font-size: 1em; /* 16 / 16 */
+	    line-height: 1.5em; /* 24 / 16 */
+	    margin-bottom: .75em; /* 12 / 16 */
+	}
+	p {
+	    font-size: 1em; /* 16 / 16 */
+	    line-height: 1.5em; /* 24 / 16 */
+	    margin-bottom: .75em; /* 12 / 16 */
+	}
+
+
+@media only screen and (min-width: 768px) and (max-width: 964px) {
+
+}
+@media only screen and (max-width: 767px) {
+	.paragraph_photoset .photo_gallery {
+	    margin: 0px auto;
+	    padding-top: 10px;
+	    width: 100%;
+	}
+	.paragraph_photoset .highlighted_photo {
+		height: 450px;
+		width: 100%;
+	    margin-bottom: 15px;
+	}
+	.paragraph_photoset .photo_gallery .photo_wrap {
+	    height: 458px;
+	    width: 100%;
+	    overflow: hidden;
+	    text-align: center;
+	}
+	.paragraph_photoset .photo_gallery .photo_wrap img {
+		max-width: 90%;
+	}
+	.paragraph_photoset .photo_gallery .gallery_thumbs {
+		display: none;
+	}
+}
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	.paragraph_photoset .photo_gallery {
+	    margin: 0px auto;
+	    padding-top: 10px;
+	    width: 100%;
+	}
+	.paragraph_photoset .highlighted_photo {
+		height: 450px;
+		width: 100%;
+	    margin-bottom: 15px;
+	}
+	.paragraph_photoset .photo_gallery .photo_wrap {
+	    height: 458px;
+	    width: 100%;
+	    overflow: hidden;
+	    text-align: center;
+	}
+	.paragraph_photoset .photo_gallery .photo_wrap img {
+		max-width: 90%;
+	}
+	.paragraph_photoset .photo_gallery .gallery_thumbs {
+		display: none;
+	}
+}
+.responsive-image {
+	height:auto;
+	max-width:100%;
+}

@@ -1,0 +1,809 @@
+/* ----------- iPhone 4 and 4S ----------- */
+
+/* Portrait and Landscape */
+ @media screen and (max-width:480px) {
+.grid_1,
+.grid_2,
+.grid_3,
+.grid_4,
+.grid_5,
+.grid_6 { width: 100%; }
+
+ .ship_info, .tab, .contact, #nav, #utility, #next, #prev, .hover {
+     display: none;}
+  .bebas {
+    font-size: 18px;}
+  .robotb {
+    font-size: 18px;}
+ #shipping {
+    bottom: 7px;}
+ #homeh1_wrap {
+    text-align: center;
+    height: 0px;
+    position: relative;
+    bottom: 80px;
+    background: url(images/tribar.png) repeat-x center top;}
+ #homeh1 {
+   width: 316px;}
+   h1.home, #body.home #homeh1 h1 {
+     font-size: 20px;
+    line-height: 36px;
+    margin-bottom: 0;}
+  #logo {
+    position:absolute;
+    left: 31%;
+    top: 35px;}
+  #footer .socials a {
+    margin-right: 7px;
+  top: 155px;}
+  #footer .socials {
+    top:155px;}
+  #footer .account {
+    top: 115px;
+    right: 62px;
+    font-size: 16px;}
+  #footer .redundant_nav {
+    top: 220px;}
+#logo_farm .logo.first {
+  margin-right: 0px;}
+#testimonials {
+  bottom:90px;}
+#about {
+  bottom: 125px;}
+  .container .columns, .container .column {
+    margin: 0 0 16px 0;}
+    h2.home, #body.home h2 {
+    font-size: 22px;
+    line-height: 34px;
+    margin-bottom: 12px;}
+            a#prev,
+      a#next {
+      visibility: hidden;}
+  #triptych a, #triptych img {
+    position: relative;
+    z-index: 10;
+    border-radius: 10px;
+    height: auto;
+    max-width: 30%;}
+}
+@media screen and (min-width:688px) and (max-width:1440px){
+  #shipping {
+    margin-bottom: 101px;
+    position: relative;
+    bottom: 74px;
+    z-index: 101;
+    background: #f7a11a;
+    height: 57px;
+}
+}
+@media screen and (min-width:768px) and (max-width:688px){
+    #logo {
+        position: absolute;
+        top: 50px;
+        left: 50%;
+        margin-left: -87px;
+        z-index: 10;
+        height: auto;
+        max-width: 22%;}
+          #nav {
+        position: absolute;
+        bottom: 20px;
+        left: -50px;
+        list-style-type: none;
+        padding: 0;
+        margin: 0 0 0 20px;
+        height: 65px;}
+    #nav a {
+        font-size: 24px;}
+    #nav li#nav_design_library {
+        margin-right: 145px;}
+    #home_photoset #prev {
+    left: 10px;}
+#home_photoset #next {
+    right: 0px;}
+#shipping .ship_info .free {
+    position: absolute;
+    top: 30px;
+    left: 170px;
+    width: 70px;
+    height: 80px;
+    text-align: center;}
+#shipping .ship_info .rush {
+    position: absolute;
+    top: 30px;
+    right: 58px;
+    width: 70px;
+    height: 80px;
+    text-align: center;}
+#shipping .ship_info .link {
+    position: absolute;
+    bottom: 45px;
+    left: 0;
+    width: 100%;
+    text-align: center;}
+}
+
+
+
+/* ----------- iPhone 5 and 5S ----------- */
+
+/* Portrait and Landscape */
+@media screen and (min-width:481px) and (max-width:568px){
+.grid_1,
+.grid_2,
+.grid_3,
+.grid_4,
+.grid_5,
+.grid_6 { width: 100%; }
+
+.ship_info, .tab, .contact, #nav, #utility, #next, #prev, .hover {
+    display: none;}
+ .bebas {
+   font-size: 18px;}
+ .robotb {
+   font-size: 18px;}
+#shipping {
+  bottom:34px;
+}
+#homeh1 {
+  width: 316px;}
+  h1.home, #body.home #homeh1 h1 {
+    font-size: 25px;}
+ #logo {
+   position:absolute;
+   left: 31%;
+   top: 35px;}
+ #footer .socials a {
+   margin-right: 7px;
+   top: 155px;
+ }
+ #footer .socials {
+   top:155px;
+   left: 50px;
+ }
+ #footer .account {
+   top: 115px;
+   right: 130px;
+   font-size: 16px;
+ }
+ #footer .redundant_nav {
+   top: 220px;
+ }
+#logo_farm .logo.first {
+ margin-right: 10px;}
+#testimonials {
+ bottom:120px;}
+#about {
+ bottom: 125px;}
+ .container .columns, .container .column {
+   margin: 0 0 16px 0;
+   }
+   h2.home, #body.home h2 {
+   font-size: 22px;
+   line-height: 34px;
+   margin-bottom: 12px;}
+}
+/* ----------- iPhone 6 ----------- */
+
+/* Portrait and Landscape */
+@media screen and (min-width:569px) and (max-width:667px)
+{
+.grid_1,
+.grid_2,
+.grid_3,
+.grid_4,
+.grid_5,
+.grid_6 { width: 100%; }
+
+.ship_info, .tab, .contact, #nav, #utility, #next, #prev, .hover {
+    display: none;}
+
+#shipping {
+  bottom:34px;
+}
+#homeh1 {
+  width: 316px;}
+  h1.home, #body.home #homeh1 h1 {
+    font-size: 25px;}
+ #logo {
+   position:absolute;
+   left: 31%;
+   top: 35px;}
+ #footer .socials a {
+   margin-right: 7px;
+   top: 155px;
+ }
+ #footer .socials {
+   top: 155px;
+   left: 60px;
+ }
+ #footer .account {
+   top: 115px;
+   right: 130px;
+   font-size: 16px;
+ }
+ #footer .redundant_nav {
+   top: 220px;
+ }
+#logo_farm .logo.first {
+ margin-right: 10px;}
+#testimonials {
+ bottom:120px;}
+#about {
+ bottom: 125px;}
+ .container .columns, .container .column {
+   margin: 0 0 16px 0;
+   }
+   h2.home, #body.home h2 {
+   font-size: 22px;
+   line-height: 34px;
+   margin-bottom: 12px;}
+}
+
+
+@media screen and (min-width:668px) and (max-width:736px)
+{
+.grid_1,
+.grid_2,
+.grid_3,
+.grid_4,
+.grid_5,
+.grid_6 { width: 100%; }
+
+.ship_info, .tab, .contact, #nav, #utility, #next, #prev, .hover {
+    display: none;}
+#shipping {
+  bottom:34px;
+}
+#homeh1 {
+  width: 316px;}
+  h1.home, #body.home #homeh1 h1 {
+    font-size: 25px;}
+ #logo {
+   position:absolute;
+   left: 31%;
+   top: 35px;}
+ #footer .socials a {
+   margin-right: 7px;
+   top: 155px;
+ }
+ #footer .socials {
+   top: 155px;
+   left: 60px;
+ }
+ #footer .account {
+   top: 110px;
+   right: 130px;
+   font-size: 16px;
+ }
+ #footer .redundant_nav {
+   top: 220px;
+ }
+#logo_farm .logo.first {
+ margin-right: 10px;}
+#testimonials {
+ bottom:120px;}
+#about {
+ bottom: 125px;}
+ .container .columns, .container .column {
+   margin: 0 0 16px 0;
+   }
+   h2.home, #body.home h2 {
+   font-size: 22px;
+   line-height: 34px;
+   margin-bottom: 12px;}
+   #nav a {
+ text-align: center;
+ font-size: 10px;
+ text-transform: uppercase;
+ text-shadow: 1px 1px 0 rgba(241,92,34,.75);
+ color: #fff;
+ text-decoration: none;
+ line-height: 23px;
+ height: 65px;
+ display: block;
+ padding: 0px 5px;
+ -webkit-transition: color .4s;
+ -moz-transition: color .4s;
+ -ms-transition: color .4s;
+ -o-transition: color .4s;
+ transition: color .4s;
+   }
+   #nav li#nav_start_designing a {
+    width: auto;
+   }
+   #nav li#nav_design_library a,
+   #nav li#nav_our_company a {
+    width: auto;
+   }
+
+   #nav li#nav_t-shirt_shop a {
+    width: auto;
+   }
+
+   #nav li#nav_help_center a,
+   #nav li#nav_faqs a{
+    width: auto;
+   }
+
+}
+
+
+@media screen and (min-width:737px) and (max-width:767px)
+{
+.grid_1,
+.grid_2,
+.grid_3,
+.grid_4,
+.grid_5,
+.grid_6 { width: 100%; }
+
+.ship_info, .tab, .contact, #nav, #utility, #next, #prev, .hover {
+    display: none;}
+ .bebas {
+   font-size: 18px;}
+ .robotb {
+   font-size: 18px;}
+#shipping {
+  bottom:34px;
+}
+#homeh1 {
+  width: 316px;}
+  h1.home, #body.home #homeh1 h1 {
+    font-size: 25px;}
+ #logo {
+   position:absolute;
+   left: 31%;
+   top: 35px;}
+ #footer .socials a {
+   margin-right: 7px;
+   top: 155px;
+ }
+ #footer .socials {
+   top: 150px;
+   left: 55px;
+ }
+ #footer .account {
+   top: 118px;
+   right: 133px;
+   font-size: 16px;
+ }
+ #footer .redundant_nav {
+   top: 220px;
+   right: 8px;
+ }
+#logo_farm .logo.first {
+ margin-right: 10px;}
+#testimonials {
+ bottom:120px;}
+#about {
+ bottom: 125px;}
+ .container .columns, .container .column {
+     margin: 0 0 16px 0;}
+   h2.home, #body.home h2 {
+   font-size: 22px;
+   line-height: 34px;
+   margin-bottom: 12px;}
+}
+
+@media screen and (min-width:768px) and (max-width:1024px)
+{
+.grid_1,
+.grid_2,
+.grid_3,
+.grid_4,
+.grid_5,
+.grid_6 { width: 100%; }
+
+.ship_info, .contact, #utility, #next, #prev, .hover {
+    display: none;}
+
+#shipping {
+  bottom:34px;
+}
+#homeh1 {
+  width: 550px;}
+  h1.home, #body.home #homeh1 h1 {
+    font-size: 45px;}
+  #triptych a, #triptych img {
+    position: relative;
+    z-index: 10;
+    border-radius: 20px;
+    height: auto;
+    max-width: 50%;}
+ #logo {
+   position:absolute;
+   left: 50%;
+   top: 28px;}
+ #footer .socials a {
+   margin-right: 7px;
+   top: 155px;
+ }
+ #footer .socials {
+   top: 150px;
+   left: 55px;
+ }
+ #footer .account {
+   top: 155px;
+   right: 133px;
+   font-size: 16px;
+ }
+ #footer .redundant_nav {
+   top: 220px;
+   right: 8px;
+ }
+#logo_farm .logo.first {
+ margin-right: 10px;}
+#testimonials {
+ bottom:60px;}
+#about {
+ bottom: 125px;}
+ .container .columns, .container .column {
+   margin: 0 0 16px 0;
+   }
+   h2.home, #body.home h2 {
+   font-size: 22px;
+   line-height: 34px;
+   margin-bottom: 12px;}
+        a#prev,
+      a#next {
+      visibility: hidden;
+  }
+
+}
+@media screen and (min-width:768px) and (max-width:964px)
+@media screen and (min-width:768px) and (max-width:964px)
+{
+  #nav a {
+text-align: center;
+font-size: 20px;
+text-transform: uppercase;
+text-shadow: 1px 1px 0 rgba(241,92,34,.75);
+color: #fff;
+text-decoration: none;
+line-height: 23px;
+height: 65px;
+display: block;
+padding: 0px 10px;
+-webkit-transition: color .4s;
+-moz-transition: color .4s;
+-ms-transition: color .4s;
+-o-transition: color .4s;
+transition: color .4s;
+  }
+  #nav li#nav_start_designing a {
+  	width: auto;
+  }
+  #nav li#nav_design_library a,
+  #nav li#nav_our_company a {
+  	width: auto;
+  }
+
+  #nav li#nav_t-shirt_shop a {
+  	width: auto;
+  }
+
+  #nav li#nav_help_center a,
+  #nav li#nav_faqs a{
+  	width: auto;
+  }
+        a#prev,
+      a#next {
+      visibility: hidden;
+  }
+}
+@media screen and (min-width:640px) and (max-width:768px)
+{
+  #nav a {
+text-align: center;
+font-size: 15px;
+text-transform: uppercase;
+text-shadow: 1px 1px 0 rgba(241,92,34,.75);
+color: #fff;
+text-decoration: none;
+line-height: 20px;
+height: 15px;
+display: inline-block;
+padding: 0px 5px;
+-webkit-transition: color .4s;
+-moz-transition: color .4s;
+-ms-transition: color .4s;
+-o-transition: color .4s;
+transition: color .4s;
+  }
+  #nav li#nav_start_designing a {
+  	width: auto;
+  }
+  #nav li#nav_design_library a,
+  #nav li#nav_our_company a {
+  	width: auto;
+  }
+
+  #nav li#nav_t-shirt_shop a {
+  	width: auto;
+  }
+
+  #nav li#nav_help_center a,
+  #nav li#nav_faqs a{
+  	width: auto;
+  }
+  #nav li#nav_start_designing, #nav li#nav_help_center, #nav li#nav_faqs {
+    border-right: 0px dashed #f7781a;
+  }
+/*  #nav li {
+    display: block;
+    float: left;
+    position: relative;
+    right: -56px;
+    bottom: -49px;
+    margin: 0;
+    padding: 0;
+  } */
+  #nav {
+      position: absolute;
+      bottom: 72px;
+      left: -117px;
+      list-style-type: none;
+      padding: 0;
+      margin: 0 0 0 10px;
+      height: 15px;
+  }
+}
+
+/* ANDY ADDED THIS!!!!!!!!!!!!! */
+@media screen and (max-width:639px){
+  #logo{
+    position:static;
+    left:initial;
+    top:initial;
+    width: auto;
+    display: block;
+    text-align: center;
+  }
+  #header{
+    height:auto;
+  }
+  #header_wrap{
+    height:auto;
+    background:#F6A627;
+  }
+  #nav {
+    position:static;
+    bottom:initial;
+    left:initial;
+    padding:0px 0px 20px 0px;
+    margin:initial;
+    height:initial;
+    margin-left:10px;
+  }
+  #nav li{
+    float:none;
+  }
+  #nav a{
+    text-align:left;
+    height:auto;
+  }
+  #nav li#nav_start_designing, #nav li#nav_help_center, #nav li#nav_faqs {
+    border-right:none;
+  }
+  br{
+    display:none;
+  }
+  .robotb{
+    padding-right:10px;
+  }
+}
+
+/* END ANDY ADDED THIS!!!!!!!!!!!!! */
+
+  @media screen and (min-width:640px) and (max-width:768px)
+  {
+    #nav a {
+  text-align: center;
+  font-size: 15px;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 0 rgba(241,92,34,.75);
+  color: #fff;
+  text-decoration: none;
+  line-height: 20px;
+  height: 15px;
+  display: inline-block;
+  padding: 0px 5px;
+  -webkit-transition: color .4s;
+  -moz-transition: color .4s;
+  -ms-transition: color .4s;
+  -o-transition: color .4s;
+  transition: color .4s;
+    }
+    #nav li#nav_start_designing a {
+    	width: auto;
+    }
+    #nav li#nav_design_library a,
+    #nav li#nav_our_company a {
+    	width: auto;
+    }
+
+    #nav li#nav_t-shirt_shop a {
+    	width: auto;
+    }
+
+    #nav li#nav_design_library a,
+    #nav li#nav_faqs a{
+    	width: auto;
+    }
+    #nav li#nav_start_designing, #nav li#nav_design_library, #nav li#nav_faqs {
+      border-right: 0px dashed #f7781a;
+    }
+  /*  #nav li {
+      display: block;
+      float: left;
+      position: relative;
+      right: -56px;
+      bottom: -49px;
+      margin: 0;
+      padding: 0;
+    } */
+    #nav {
+        position: absolute;
+        bottom: 72px;
+        left: -117px;
+        list-style-type: none;
+        padding: 0;
+        margin: 0 0 0 10px;
+        height: 15px;
+    }
+}
+
+      @media screen and (min-width:737px) and (max-width:768px)
+      {
+        #nav a {
+      text-align: center;
+      font-size: 20px;
+      text-transform: uppercase;
+      text-shadow: 1px 1px 0 rgba(241,92,34,.75);
+      color: #fff;
+      text-decoration: none;
+      line-height: 25px;
+      height: 15px;
+      display: inline-block;
+      padding: 0px 5px;
+      -webkit-transition: color .4s;
+      -moz-transition: color .4s;
+      -ms-transition: color .4s;
+      -o-transition: color .4s;
+      transition: color .4s;
+        }
+        #nav li#nav_start_designing a,
+        #nav li#nav_design_library a,
+        #nav li#nav_our_company a
+        #nav li#nav_t-shirt_shop a 
+        #nav li#nav_help_center a,
+        #nav li#nav_faqs a{
+          width: auto;
+        }
+        #nav li#nav_start_designing, #nav li#nav_design_library, #nav li#nav_faqs {
+           width: auto;
+          border-right: 0px dashed #f7781a;
+        }
+      /*  #nav li {
+          display: block;
+          float: left;
+          position: relative;
+          right: -56px;
+          bottom: -49px;
+          margin: 0;
+          padding: 0;
+        } */
+        #nav {
+            position: absolute;
+            bottom: 72px;
+            left: 50px;
+            list-style-type: none;
+            padding: 0;
+            margin: 0 0 0 10px;
+            height: 15px;
+        }
+      #nav li#nav_design_library {
+    margin-right: 327px;
+}
+
+
+@media screen and (min-width:414px) and (max-width:736px)
+{
+    #triptych a,
+    #triptych img {
+      position: relative;
+      z-index: 10;
+      border-radius: 20px;
+      height: auto;
+      max-width:35%;}
+        a#prev,
+      a#next {
+      visibility: hidden;
+  }
+    #testimonials {
+      bottom: 100px;}
+      h2.home, #body.home h2 {
+    font-size: 22px;
+    line-height: 34px;
+    margin-bottom: 12px;}
+    h4.home, #body.home h4 {
+    font-size: 13px;
+    line-height: 28px;
+    margin-bottom: 3px;}
+}
+@media screen and (min-width:435px) and (max-width:773px)
+{
+h1.home, #body.home #homeh1 h1 {
+    font-size: 45px;
+    line-height: 36px;
+    margin-bottom: 0;
+}
+    #triptych {
+      text-align: center;
+      padding: 30px 0;
+      position: relative;
+      bottom: 80px;
+  }
+  #testimonials {
+      bottom: 115px;
+  }
+}
+
+      /*  @media screen and (min-width:414px) and (max-width:736px)
+        {
+          #nav a {
+        text-align: center;
+        font-size: 15px;
+        text-transform: uppercase;
+        text-shadow: 1px 1px 0 rgba(241,92,34,.75);
+        color: #fff;
+        text-decoration: none;
+        line-height: 20px;
+        height: 15px;
+        display: inline-block;
+        padding: 0px 5px;
+        -webkit-transition: color .4s;
+        -moz-transition: color .4s;
+        -ms-transition: color .4s;
+        -o-transition: color .4s;
+        transition: color .4s;
+          }
+          #nav li#nav_start_designing a {
+            width: auto;
+          }
+          #nav li#nav_design_library a,
+          #nav li#nav_our_company a {
+            width: auto;
+          }
+
+          #nav li#nav_t-shirt_shop a {
+            width: auto;
+          }
+
+          #nav li#nav_help_center a,
+          #nav li#nav_faqs a{
+            width: auto;
+          }
+          #nav li#nav_start_designing, #nav li#nav_help_center, #nav li#nav_faqs {
+            border-right: 0px dashed #f7781a;
+          }
+        /*  #nav li {
+            display: block;
+            float: left;
+            position: relative;
+            right: -56px;
+            bottom: -49px;
+            margin: 0;
+            padding: 0;
+          }
+          #nav {
+              position: absolute;
+              bottom: 72px;
+              left: -117px;
+              list-style-type: none;
+              padding: 0;
+              margin: 0 0 0 10px;
+              height: 15px;
+          }
+        } */
